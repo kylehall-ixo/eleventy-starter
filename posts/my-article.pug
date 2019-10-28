@@ -3,18 +3,17 @@ layout: layout.pug
 title: My Article Name
 ---
 
-h1 !{ title }
+h1.f-headline.lh-solid.measure !{ title }
 
-p Here is some content.
+p.lh-solid Here is some content.
 
 p Here is some more.
 
 p What does it look like?
 
-pre
+pre.ft-syntax-highlight(data-syntax='javascript' data-syntax-theme='one-dark')
   code
-    |Also
-    |    Here's some code, I think.
+    |const arr = ['Pirate']
 
 p Why are all my paragraphs so big?
 
